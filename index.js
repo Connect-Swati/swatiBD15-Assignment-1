@@ -55,7 +55,7 @@ app.get("/cart-total", (req, res) => {
   setTimeout(() => {
     console.clear();
     console.log("Console has been cleared.");
-  }, 120000);
+  }, 300000);
 });
 
 /*Endpoint 2 : Apply a discount based on membership status
@@ -119,7 +119,7 @@ app.get("/membership-discount", (req, res) => {
   setTimeout(() => {
     console.clear();
     console.log("Console has been cleared.");
-  }, 120000);
+  }, 300000);
 });
 /*Endpoint 3 : Calculate tax on the cart total
 
@@ -158,7 +158,7 @@ app.get("/calculate-tax", (req, res) => {
   setTimeout(() => {
     console.clear();
     console.log("Console has been cleared.");
-  }, 120000);
+  }, 300000);
 });
 
 /*
@@ -222,7 +222,7 @@ app.get("/estimate-delivery", (req, res) => {
   setTimeout(() => {
     console.clear();
     console.log("Console has been cleared.");
-  }, 120000);
+  }, 300000);
 });
 
 /*Endpoint 5 : Calculate the shipping cost based on weight and distance
@@ -274,7 +274,7 @@ app.get("/shipping-cost", (req, res) => {
   setTimeout(() => {
     console.clear();
     console.log("Console has been cleared.");
-  }, 120000);
+  }, 300000);
 });
 
 /*
@@ -318,5 +318,5 @@ app.get("/loyalty-points", (req, res) => {
   setTimeout(() => {
     console.clear();
     console.log("Console has been cleared.");
-  }, 120000);
+  }, 300000);
 });
