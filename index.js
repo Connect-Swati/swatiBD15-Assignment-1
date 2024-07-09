@@ -186,7 +186,7 @@ Expected Output: 6
 */
 function estimateDelivery(shippingMethod, distance) {
   let deliveryTime_days = 0;
-  if (shippingMethod === "Standard") {
+  if (shippingMethod.toLowerCase() === "standard") {
     deliveryTime_days = distance / 50; //1 day per 50 kms.
     console.log(
       "shippingMethod = " +
